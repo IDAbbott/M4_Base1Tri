@@ -5929,6 +5929,1729 @@
           "ioValue": 90
         }
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.1,
+      "y": 0.3,
+      "uniqueID": "id-7615",
+      "name": "MotorHoles",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 1,
+          "y": 0.5,
+          "uniqueID": "id-7616",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1,
+          "y": 0.4,
+          "uniqueID": "id-7617",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 7.5
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.2,
+          "y": 0.7,
+          "uniqueID": "id-7618",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 3.5
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2,
+          "y": 0.4,
+          "uniqueID": "id-7619",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 40
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.4,
+          "y": 0.6,
+          "uniqueID": "id-7620",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3,
+          "y": 0.7,
+          "uniqueID": "id-7621",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 40
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.4,
+          "uniqueID": "id-7622",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -35
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7,
+          "y": 0.1,
+          "uniqueID": "id-7623",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 84
+            },
+            {
+              "name": "yDist",
+              "ioValue": 15.5
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.5,
+          "y": 0.5,
+          "uniqueID": "id-7624",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 180
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7,
+          "y": 0.3,
+          "uniqueID": "id-7625",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 84
+            },
+            {
+              "name": "yDist",
+              "ioValue": -15.5
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7,
+          "y": 0.2,
+          "uniqueID": "id-7626",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 115
+            },
+            {
+              "name": "yDist",
+              "ioValue": 15.5
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7,
+          "y": 0.4,
+          "uniqueID": "id-7627",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 115
+            },
+            {
+              "name": "yDist",
+              "ioValue": -15.5
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8,
+          "y": 0.2,
+          "uniqueID": "id-7628",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 6",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7,
+          "y": 0.7,
+          "uniqueID": "id-7629",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 46
+            },
+            {
+              "name": "yDist",
+              "ioValue": 32
+            },
+            {
+              "name": "zDist",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7,
+          "y": 0.6,
+          "uniqueID": "id-7630",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 46
+            },
+            {
+              "name": "yDist",
+              "ioValue": -32
+            },
+            {
+              "name": "zDist",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6,
+          "y": 0.5,
+          "uniqueID": "id-7631",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.6,
+          "y": 0.3,
+          "uniqueID": "id-7632",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 84
+            },
+            {
+              "name": "y",
+              "ioValue": 31
+            }
+          ],
+          "currentEquation": "x + y"
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.4,
+          "y": 0.1,
+          "uniqueID": "id-7633",
+          "name": "MotorDist1",
+          "value": 84
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.4,
+          "y": 0.2,
+          "uniqueID": "id-7634",
+          "name": "MotorDist2",
+          "value": 31
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5,
+          "y": 0.3,
+          "uniqueID": "id-7635",
+          "name": "x /  y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 31
+            },
+            {
+              "name": "y",
+              "ioValue": 2
+            }
+          ],
+          "currentEquation": "x /  y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5,
+          "y": 0.4,
+          "uniqueID": "id-7636",
+          "name": "x * y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 15.5
+            },
+            {
+              "name": "y",
+              "ioValue": -1
+            }
+          ],
+          "currentEquation": "x * y"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7,
+          "y": 0.5,
+          "uniqueID": "id-7637",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 170
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 12
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.8,
+          "y": 0.6,
+          "uniqueID": "id-7638",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 140
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 12
+            }
+          ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.9,
+          "y": 0.7,
+          "uniqueID": "id-7639",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-84-15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            80.2499999,
+                            11.749999899999999,
+                            2.9999998999999997
+                          ],
+                          "max": [
+                            87.7500001,
+                            19.25000010000001,
+                            43.0000001
+                          ]
+                        }
+                      },
+                      {
+                        "geometry": "move-move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-84-15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            82.2499999,
+                            13.749999899999995,
+                            -32.0000001
+                          ],
+                          "max": [
+                            85.7500001,
+                            17.2500001,
+                            8.0000001
+                          ]
+                        }
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "nonReplicadSerialized": {},
+                    "boundingBox": {
+                      "min": [
+                        80.2499999,
+                        11.749999899999999,
+                        -32.0000001
+                      ],
+                      "max": [
+                        87.7500001,
+                        19.25000010000001,
+                        43.0000001
+                      ]
+                    }
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-115-15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            111.2499999,
+                            11.749999899999999,
+                            2.9999998999999997
+                          ],
+                          "max": [
+                            118.7500001,
+                            19.25000010000001,
+                            43.0000001
+                          ]
+                        }
+                      },
+                      {
+                        "geometry": "move-move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-115-15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            113.2499999,
+                            13.749999899999995,
+                            -32.0000001
+                          ],
+                          "max": [
+                            116.7500001,
+                            17.2500001,
+                            8.0000001
+                          ]
+                        }
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "nonReplicadSerialized": {},
+                    "boundingBox": {
+                      "min": [
+                        111.2499999,
+                        11.749999899999999,
+                        -32.0000001
+                      ],
+                      "max": [
+                        118.7500001,
+                        19.25000010000001,
+                        43.0000001
+                      ]
+                    }
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-84--15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            80.2499999,
+                            -19.2500001,
+                            2.9999998999999997
+                          ],
+                          "max": [
+                            87.7500001,
+                            -11.749999899999995,
+                            43.0000001
+                          ]
+                        }
+                      },
+                      {
+                        "geometry": "move-move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-84--15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            82.2499999,
+                            -17.25000010000001,
+                            -32.0000001
+                          ],
+                          "max": [
+                            85.7500001,
+                            -13.7499999,
+                            8.0000001
+                          ]
+                        }
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "nonReplicadSerialized": {},
+                    "boundingBox": {
+                      "min": [
+                        80.2499999,
+                        -19.2500001,
+                        -32.0000001
+                      ],
+                      "max": [
+                        87.7500001,
+                        -11.749999899999995,
+                        43.0000001
+                      ]
+                    }
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-115--15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            111.2499999,
+                            -19.2500001,
+                            2.9999998999999997
+                          ],
+                          "max": [
+                            118.7500001,
+                            -11.749999899999995,
+                            43.0000001
+                          ]
+                        }
+                      },
+                      {
+                        "geometry": "move-move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-115--15.5-0",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            113.2499999,
+                            -17.25000010000001,
+                            -32.0000001
+                          ],
+                          "max": [
+                            116.7500001,
+                            -13.7499999,
+                            8.0000001
+                          ]
+                        }
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "nonReplicadSerialized": {},
+                    "boundingBox": {
+                      "min": [
+                        111.2499999,
+                        -19.2500001,
+                        -32.0000001
+                      ],
+                      "max": [
+                        118.7500001,
+                        -11.749999899999995,
+                        43.0000001
+                      ]
+                    }
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-170-0-12",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            166.2499999,
+                            -3.7500001000000003,
+                            14.9999999
+                          ],
+                          "max": [
+                            173.7500001,
+                            3.7500001000000043,
+                            55.0000001
+                          ]
+                        }
+                      },
+                      {
+                        "geometry": "move-move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-170-0-12",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            168.2499999,
+                            -1.750000100000005,
+                            -20.0000001
+                          ],
+                          "max": [
+                            171.7500001,
+                            1.7500001,
+                            20.0000001
+                          ]
+                        }
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "nonReplicadSerialized": {},
+                    "boundingBox": {
+                      "min": [
+                        166.2499999,
+                        -3.7500001000000003,
+                        -20.0000001
+                      ],
+                      "max": [
+                        173.7500001,
+                        3.7500001000000043,
+                        55.0000001
+                      ]
+                    }
+                  },
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-140-0-12",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            136.2499999,
+                            -3.7500001000000003,
+                            14.9999999
+                          ],
+                          "max": [
+                            143.7500001,
+                            3.7500001000000043,
+                            55.0000001
+                          ]
+                        }
+                      },
+                      {
+                        "geometry": "move-move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-0-0-8-140-0-12",
+                        "dimension": "3D",
+                        "tags": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "bom": [],
+                        "boundingBox": {
+                          "min": [
+                            138.2499999,
+                            -1.750000100000005,
+                            -20.0000001
+                          ],
+                          "max": [
+                            141.7500001,
+                            1.7500001,
+                            20.0000001
+                          ]
+                        }
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "nonReplicadSerialized": {},
+                    "boundingBox": {
+                      "min": [
+                        136.2499999,
+                        -3.7500001000000003,
+                        -20.0000001
+                      ],
+                      "max": [
+                        143.7500001,
+                        3.7500001000000043,
+                        55.0000001
+                      ]
+                    }
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": [],
+                "boundingBox": {
+                  "min": [
+                    80.2499999,
+                    -19.2500001,
+                    -32.0000001
+                  ],
+                  "max": [
+                    173.7500001,
+                    19.25000010000001,
+                    55.0000001
+                  ]
+                }
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-134-15.5-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-134-15.5-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": {}
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-134--15.5-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-134--15.5-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": {}
+              }
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-46-32-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-46-32-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": {}
+              }
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-46--32-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-46--32-8",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": {}
+              }
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6,
+          "y": 0.8,
+          "uniqueID": "id-7640",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 134
+            },
+            {
+              "name": "yDist",
+              "ioValue": 15.5
+            },
+            {
+              "name": "zDist",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6,
+          "y": 0.9,
+          "uniqueID": "id-7641",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 134
+            },
+            {
+              "name": "yDist",
+              "ioValue": -15.5
+            },
+            {
+              "name": "zDist",
+              "ioValue": 8
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7617",
+          "ap2ID": "id-7619"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7618",
+          "ap2ID": "id-7621"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7619",
+          "ap2ID": "id-7622"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7620",
+          "ap2ID": "id-7624"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-7621",
+          "ap2ID": "id-7620"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-7622",
+          "ap2ID": "id-7620"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-7623",
+          "ap2ID": "id-7628"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7624",
+          "ap2ID": "id-7631"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7624",
+          "ap2ID": "id-7640"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7624",
+          "ap2ID": "id-7641"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7624",
+          "ap2ID": "id-7629"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7624",
+          "ap2ID": "id-7630"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-7625",
+          "ap2ID": "id-7628"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-7626",
+          "ap2ID": "id-7628"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-7627",
+          "ap2ID": "id-7628"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-7628",
+          "ap2ID": "id-7639"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-7629",
+          "ap2ID": "id-7639"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-7630",
+          "ap2ID": "id-7639"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7631",
+          "ap2ID": "id-7623"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7631",
+          "ap2ID": "id-7626"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7631",
+          "ap2ID": "id-7625"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7631",
+          "ap2ID": "id-7627"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7631",
+          "ap2ID": "id-7637"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7631",
+          "ap2ID": "id-7638"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-7632",
+          "ap2ID": "id-7626"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-7632",
+          "ap2ID": "id-7627"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-7633",
+          "ap2ID": "id-7623"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-7633",
+          "ap2ID": "id-7625"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-7633",
+          "ap2ID": "id-7632"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-7634",
+          "ap2ID": "id-7632"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-7634",
+          "ap2ID": "id-7635"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-7635",
+          "ap2ID": "id-7623"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-7635",
+          "ap2ID": "id-7626"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-7635",
+          "ap2ID": "id-7636"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-7636",
+          "ap2ID": "id-7625"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-7636",
+          "ap2ID": "id-7627"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-7637",
+          "ap2ID": "id-7628"
+        },
+        {
+          "ap2Name": "Shape 6",
+          "ap1ID": "id-7638",
+          "ap2ID": "id-7628"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-7639",
+          "ap2ID": "id-7616"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-7640",
+          "ap2ID": "id-7639"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-7641",
+          "ap2ID": "id-7639"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
