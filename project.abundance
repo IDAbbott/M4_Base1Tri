@@ -1093,7 +1093,7 @@
     {
       "atomType": "Molecule",
       "x": 0.2,
-      "y": 0.3,
+      "y": 0.2,
       "uniqueID": "id-25",
       "name": "M4_BaseQtr",
       "topLevel": false,
@@ -5479,8 +5479,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.6,
-          "y": 0.2,
+          "x": 0.7,
+          "y": 0.3,
           "uniqueID": "id-4370",
           "ioValues": [
             {
@@ -5517,11 +5517,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 44
+              "ioValue": 46
             },
             {
               "name": "yDist",
-              "ioValue": 36
+              "ioValue": 32
             },
             {
               "name": "zDist",
@@ -5569,11 +5569,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 44
+              "ioValue": 46,
+              "currentEquation": "46"
             },
             {
               "name": "yDist",
-              "ioValue": -36
+              "ioValue": -32
             },
             {
               "name": "zDist",
@@ -5623,8 +5624,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.7,
-          "y": 0.4,
+          "x": 0.8,
+          "y": 0.5,
           "uniqueID": "id-4407",
           "ioValues": [
             {
