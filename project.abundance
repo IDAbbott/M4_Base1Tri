@@ -278,7 +278,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 90
+              "ioValue": 120
             }
           ]
         },
@@ -302,7 +302,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 270
+              "ioValue": 240
             }
           ]
         },
@@ -322,6 +322,10 @@
             },
             {
               "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
               "ioValue": null
             }
           ]
@@ -507,6 +511,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-1514",
           "ap2ID": "id-1526"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-1514",
+          "ap2ID": "id-1532"
         },
         {
           "ap2Name": "Shape 1",
@@ -1002,8 +1011,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8,
-      "y": 0.4,
+      "x": 0.9,
+      "y": 0.3,
       "uniqueID": "id-2482",
       "ioValues": [
         {
@@ -2791,7 +2800,7 @@
         {
           "atomType": "Fusion",
           "x": 0.9,
-          "y": 0.7,
+          "y": 0.6,
           "uniqueID": "id-755",
           "ioValues": [
             {
