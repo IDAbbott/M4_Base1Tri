@@ -5011,18 +5011,6 @@
       "topLevel": false,
       "allAtoms": [
         {
-          "atomType": "Assembly",
-          "x": 0.8,
-          "y": 0.5,
-          "uniqueID": "id-1393",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            }
-          ]
-        },
-        {
           "atomType": "Move",
           "x": 0.6,
           "y": 0.4,
@@ -5201,18 +5189,118 @@
               "ioValue": 3.5
             }
           ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.6,
+          "y": 0.4,
+          "uniqueID": "id-7568",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 120
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.7,
+          "y": 0.7,
+          "uniqueID": "id-7575",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 300
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.7,
+          "y": 0.5,
+          "uniqueID": "id-7581",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 240
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8,
+          "y": 0.5,
+          "uniqueID": "id-7587",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-1393",
-          "ap2ID": "id-368"
+          "ap2Name": "geometry",
+          "ap1ID": "id-1466",
+          "ap2ID": "id-7568"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "geometry",
           "ap1ID": "id-1466",
-          "ap2ID": "id-1393"
+          "ap2ID": "id-7575"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1466",
+          "ap2ID": "id-7581"
         },
         {
           "ap2Name": "geometry",
@@ -5258,6 +5346,21 @@
           "ap2Name": "remove",
           "ap1ID": "id-437",
           "ap2ID": "id-389"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-7568",
+          "ap2ID": "id-7587"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-7575",
+          "ap2ID": "id-7587"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-7581",
+          "ap2ID": "id-7587"
         }
       ],
       "fileTypeVersion": 1
