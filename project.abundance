@@ -9,7 +9,7 @@
     {
       "atomType": "Molecule",
       "x": 0.2,
-      "y": 0.4,
+      "y": 0.5,
       "uniqueID": "id-1035",
       "name": "SupportBrace",
       "topLevel": false,
@@ -609,7 +609,7 @@
     {
       "atomType": "Assembly",
       "x": 0.4,
-      "y": 0.4,
+      "y": 0.3,
       "uniqueID": "id-1382",
       "ioValues": [
         {
@@ -3199,30 +3199,6 @@
           "atomType": "Rotate",
           "x": 0.5,
           "y": 0.3,
-          "uniqueID": "id-5845",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.6,
-          "y": 0.3,
           "uniqueID": "id-5856",
           "ioValues": [
             {
@@ -3246,7 +3222,7 @@
         {
           "atomType": "Rotate",
           "x": 0.6,
-          "y": 0.1,
+          "y": 0.2,
           "uniqueID": "id-5862",
           "ioValues": [
             {
@@ -3259,6 +3235,10 @@
             },
             {
               "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
               "ioValue": 0
             }
           ]
@@ -3284,30 +3264,6 @@
             {
               "name": "z-axis degrees",
               "ioValue": 90
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.7,
-          "y": 0.1,
-          "uniqueID": "id-5877",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
             }
           ]
         },
@@ -3362,6 +3318,22 @@
             {
               "name": "zDist",
               "ioValue": 16
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7,
+          "y": 0.1,
+          "uniqueID": "id-6696",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
             }
           ]
         },
@@ -3655,34 +3627,9 @@
           "ap2ID": "id-5884"
         },
         {
-          "ap2Name": "Shape 4",
-          "ap1ID": "id-5845",
-          "ap2ID": "id-5877"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-5856",
-          "ap2ID": "id-5877"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-5862",
-          "ap2ID": "id-5877"
-        },
-        {
-          "ap2Name": "z-axis degrees",
-          "ap1ID": "id-5868",
-          "ap2ID": "id-5862"
-        },
-        {
           "ap2Name": "Shape 2",
-          "ap1ID": "id-5868",
-          "ap2ID": "id-5877"
-        },
-        {
-          "ap2Name": "remove",
-          "ap1ID": "id-5877",
-          "ap2ID": "id-5841"
+          "ap1ID": "id-5862",
+          "ap2ID": "id-6696"
         },
         {
           "ap2Name": "geometry",
@@ -3747,11 +3694,6 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-5705",
-          "ap2ID": "id-5845"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5705",
           "ap2ID": "id-5856"
         },
         {
@@ -3763,6 +3705,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-5705",
           "ap2ID": "id-5868"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-5705",
+          "ap2ID": "id-6696"
         }
       ],
       "fileTypeVersion": 1
@@ -3770,7 +3717,7 @@
     {
       "atomType": "Molecule",
       "x": 0.1,
-      "y": 0.4,
+      "y": 0.5,
       "uniqueID": "id-267",
       "name": "MotorHoles",
       "topLevel": false,
@@ -6746,7 +6693,7 @@
     {
       "atomType": "Difference",
       "x": 0.6,
-      "y": 0.5,
+      "y": 0.4,
       "uniqueID": "id-410",
       "ioValues": [
         {
