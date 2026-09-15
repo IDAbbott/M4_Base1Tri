@@ -1028,7 +1028,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.7,
+      "x": 0.8,
       "y": 0.6,
       "uniqueID": "id-1575",
       "ioValues": [
@@ -1163,7 +1163,7 @@
         {
           "atomType": "Move",
           "x": 0.4,
-          "y": 0.8,
+          "y": 0.7,
           "uniqueID": "id-100",
           "ioValues": [
             {
@@ -1459,7 +1459,7 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.7,
+          "x": 0.6,
           "y": 0.4,
           "uniqueID": "id-5705",
           "name": "CentreHoles",
@@ -2190,7 +2190,7 @@
         {
           "atomType": "Move",
           "x": 0.4,
-          "y": 0.7,
+          "y": 0.6,
           "uniqueID": "id-75",
           "ioValues": [
             {
@@ -2408,11 +2408,6 @@
           "ap2ID": "id-747"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-747",
-          "ap2ID": "id-301"
-        },
-        {
           "ap2Name": "retain",
           "ap1ID": "id-747",
           "ap2ID": "id-7526"
@@ -2446,6 +2441,11 @@
           "ap2Name": "remove",
           "ap1ID": "id-5705",
           "ap2ID": "id-7526"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7526",
+          "ap2ID": "id-301"
         }
       ],
       "fileTypeVersion": 1
@@ -5468,7 +5468,7 @@
     {
       "atomType": "Export",
       "x": 0.8,
-      "y": 0.9,
+      "y": 0.8,
       "uniqueID": "id-431",
       "ioValues": [
         {
