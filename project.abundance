@@ -591,22 +591,6 @@
       "partName": "M4_BaseQtrFinal"
     },
     {
-      "atomType": "Difference",
-      "x": 0.4,
-      "y": 0.1,
-      "uniqueID": "id-12",
-      "ioValues": [
-        {
-          "name": "retain",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "remove",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
       "atomType": "Assembly",
       "x": 0.4,
       "y": 0.3,
@@ -1075,22 +1059,6 @@
       ]
     },
     {
-      "atomType": "Extrude",
-      "x": 0.6,
-      "y": 0.1,
-      "uniqueID": "id-16",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Output",
       "x": 1,
       "y": 0.5,
@@ -1101,36 +1069,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7,
-      "y": 0.1,
-      "uniqueID": "id-20",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "M4_Base1",
-          "currentEquation": "M4_Base1"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "M4_Base1"
     },
     {
       "atomType": "Assembly",
@@ -2730,7 +2668,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 45
+              "ioValue": 46
             },
             {
               "name": "yDist",
@@ -3765,7 +3703,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-45-32-8",
+                    "geometry": "move-rotate-cut-move-extrude-circle-3.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-0-0--35-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-46-32-8",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -3789,7 +3727,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-45-32-8",
+                    "geometry": "move-rotate-extrude-circle-1.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-40-180-0-0-46-32-8",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5861,38 +5799,9 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "InnerRing"
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.2,
-      "y": 0.1,
-      "uniqueID": "id-6",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 380
-        }
-      ]
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.2,
-      "y": 0.2,
-      "uniqueID": "id-9",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 100
-        }
-      ]
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-12",
-      "ap2ID": "id-16"
-    },
     {
       "ap2Name": "retain",
       "ap1ID": "id-1382",
@@ -5944,11 +5853,6 @@
       "ap2ID": "id-2482"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-16",
-      "ap2ID": "id-20"
-    },
-    {
       "ap2Name": "remove",
       "ap1ID": "id-2957",
       "ap2ID": "id-2963"
@@ -5987,16 +5891,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-425",
       "ap2ID": "id-1495"
-    },
-    {
-      "ap2Name": "retain",
-      "ap1ID": "id-6",
-      "ap2ID": "id-12"
-    },
-    {
-      "ap2Name": "remove",
-      "ap1ID": "id-9",
-      "ap2ID": "id-12"
     },
     {
       "ap2Name": "Shape 1",
