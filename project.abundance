@@ -190,35 +190,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
               "ioValue": 111
             },
             {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.4,
-          "y": 0.7,
-          "uniqueID": "id-1477",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
               "name": "yDist",
-              "ioValue": -111
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -414,7 +390,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 240
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
@@ -422,7 +398,27 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 0
+              "ioValue": 240
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5,
+          "y": 0.5,
+          "uniqueID": "id-7605",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
             }
           ]
         }
@@ -479,9 +475,9 @@
           "ap2ID": "id-1476"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1475",
-          "ap2ID": "id-1477"
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-1476",
+          "ap2ID": "id-7605"
         },
         {
           "ap2Name": "geometry1",
@@ -527,6 +523,21 @@
           "ap2Name": "geometry2",
           "ap1ID": "id-1542",
           "ap2ID": "id-1538"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-7593",
+          "ap2ID": "id-7605"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-7599",
+          "ap2ID": "id-7605"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-7605",
+          "ap2ID": "id-1053"
         }
       ],
       "fileTypeVersion": 1
@@ -4993,11 +5004,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 100
+              "ioValue": 110
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
