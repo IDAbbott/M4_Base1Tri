@@ -2800,7 +2800,7 @@
         {
           "atomType": "Fusion",
           "x": 0.9,
-          "y": 0.6,
+          "y": 0.7,
           "uniqueID": "id-755",
           "ioValues": [
             {
@@ -4960,7 +4960,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 110
+              "ioValue": 100
             },
             {
               "name": "yDist",
