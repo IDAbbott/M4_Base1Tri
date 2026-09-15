@@ -659,7 +659,7 @@
         {
           "atomType": "Rectangle",
           "x": 0.2,
-          "y": 0.3,
+          "y": 0.2,
           "uniqueID": "id-1440",
           "ioValues": [
             {
@@ -797,8 +797,9 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-300-150-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-75-0",
+                "geometry": "move-extrude-polysides-150-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-75-0",
                 "dimension": "3D",
+                "tags": [],
                 "plane": {
                   "origin": [
                     0,
@@ -817,7 +818,6 @@
                   ]
                 },
                 "color": "#aad7f2",
-                "tags": [],
                 "bom": []
               }
             },
@@ -877,14 +877,25 @@
             }
           ],
           "unionType": "Fusion"
+        },
+        {
+          "atomType": "RegularPolygon",
+          "x": 0.1,
+          "y": 0.4,
+          "uniqueID": "id-7611",
+          "ioValues": [
+            {
+              "name": "number of sides",
+              "ioValue": 3
+            },
+            {
+              "name": "diameter",
+              "ioValue": 300
+            }
+          ]
         }
       ],
       "allConnectors": [
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-1440",
-          "ap2ID": "id-1441"
-        },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-1441",
@@ -924,6 +935,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1565",
           "ap2ID": "id-1438"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7611",
+          "ap2ID": "id-1441"
         }
       ],
       "fileTypeVersion": 1
@@ -1088,7 +1104,7 @@
     {
       "atomType": "Molecule",
       "x": 0.2,
-      "y": 0.2,
+      "y": 0.1,
       "uniqueID": "id-25",
       "name": "M4_BaseQtr",
       "topLevel": false,
@@ -5818,7 +5834,7 @@
     {
       "atomType": "Rotate",
       "x": 0.8,
-      "y": 0.1,
+      "y": 0.2,
       "uniqueID": "id-7541",
       "ioValues": [
         {
