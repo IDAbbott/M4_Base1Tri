@@ -563,7 +563,7 @@
     {
       "atomType": "Export",
       "x": 0.9,
-      "y": 0.2,
+      "y": 0.1,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -1037,7 +1037,7 @@
     {
       "atomType": "Rotate",
       "x": 0.7,
-      "y": 0.4,
+      "y": 0.3,
       "uniqueID": "id-1582",
       "ioValues": [
         {
@@ -1086,6 +1086,10 @@
         },
         {
           "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
           "ioValue": null
         }
       ]
@@ -4975,8 +4979,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5,
-      "y": 0.2,
+      "x": 0.4,
+      "y": 0.1,
       "uniqueID": "id-332",
       "ioValues": [
         {
@@ -5867,6 +5871,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-332",
       "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-332",
+      "ap2ID": "id-2482"
     },
     {
       "ap2Name": "retain",
