@@ -638,7 +638,7 @@
     {
       "atomType": "Rotate",
       "x": 0.4,
-      "y": 0.5,
+      "y": 0.7,
       "uniqueID": "id-1404",
       "ioValues": [
         {
@@ -647,7 +647,8 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "y-axis degrees",
@@ -5137,7 +5138,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 11
+              "ioValue": 84
             },
             {
               "name": "yDist",
