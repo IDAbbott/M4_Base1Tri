@@ -3821,6 +3821,33 @@
                 "bom": [],
                 "nonReplicadSerialized": {}
               }
+            },
+            {
+              "name": "Shape 6",
+              "ioValue": {
+                "geometry": "move-extrude-circle-11.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-101-0-0",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
             }
           ],
           "unionType": "Fusion"
@@ -3870,6 +3897,59 @@
             {
               "name": "zDist",
               "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1,
+          "y": 0.8,
+          "uniqueID": "id-8794",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 22.3
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2,
+          "y": 0.8,
+          "uniqueID": "id-8797",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3,
+          "y": 0.8,
+          "uniqueID": "id-8801",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 101
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         }
@@ -4078,6 +4158,21 @@
         {
           "ap2Name": "Shape 3",
           "ap1ID": "id-766",
+          "ap2ID": "id-755"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8794",
+          "ap2ID": "id-8797"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8797",
+          "ap2ID": "id-8801"
+        },
+        {
+          "ap2Name": "Shape 6",
+          "ap1ID": "id-8801",
           "ap2ID": "id-755"
         }
       ],
