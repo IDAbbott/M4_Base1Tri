@@ -3825,7 +3825,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "move-extrude-circle-11.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-101-0-0",
+                "geometry": "move-extrude-circle-11.15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-100-101-0--20",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -3924,7 +3924,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 100
             }
           ]
         },
@@ -3949,7 +3949,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": -20
             }
           ]
         }
