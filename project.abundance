@@ -735,8 +735,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -835,8 +834,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
@@ -864,8 +862,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -1006,8 +1003,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -1203,8 +1199,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -2334,6 +2329,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-7526",
+          "ap2ID": "id-301"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-81",
           "ap2ID": "id-75"
         },
@@ -2356,11 +2356,6 @@
           "ap2Name": "remove",
           "ap1ID": "id-5705",
           "ap2ID": "id-7526"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-7526",
-          "ap2ID": "id-301"
         }
       ],
       "fileTypeVersion": 1
@@ -4990,8 +4985,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -5167,8 +5161,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
@@ -5192,13 +5185,11 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -5387,8 +5378,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -5400,7 +5391,7 @@
           "currentEquation": "TrSupportBrace1"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "TrSupportBrace1"
@@ -5541,8 +5532,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 46,
-              "currentEquation": "46"
+              "ioValue": 46
             },
             {
               "name": "yDist",
@@ -5813,8 +5803,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -5838,8 +5827,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -5863,8 +5851,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -6789,8 +6776,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -7042,13 +7028,11 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -7158,7 +7142,7 @@
           "currentEquation": "TrSupportBrace3"
         }
       ],
-      "type": null,
+      "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
       "partName": "TrSupportBrace3"
@@ -7175,8 +7159,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
         },
         {
           "name": "Resolution (dpi)",
@@ -7188,7 +7172,7 @@
           "currentEquation": "TrSupportBrace2"
         }
       ],
-      "type": null,
+      "type": "SVG",
       "resolution": 96,
       "importIndex": 0,
       "partName": "TrSupportBrace2"
@@ -7276,6 +7260,81 @@
       "ap2ID": "id-1495"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7535",
+      "ap2ID": "id-1582"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7535",
+      "ap2ID": "id-7547"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7535",
+      "ap2ID": "id-7553"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7535",
+      "ap2ID": "id-7559"
+    },
+    {
+      "ap2Name": "Shape 6",
+      "ap1ID": "id-7547",
+      "ap2ID": "id-2482"
+    },
+    {
+      "ap2Name": "Shape 5",
+      "ap1ID": "id-7553",
+      "ap2ID": "id-2482"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-7559",
+      "ap2ID": "id-2482"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7764",
+      "ap2ID": "id-431"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-7764",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "Shape 7",
+      "ap1ID": "id-7790",
+      "ap2ID": "id-2482"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-7790",
+      "ap2ID": "id-7889"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-7790",
+      "ap2ID": "id-7893"
+    },
+    {
+      "ap2Name": "Shape 8",
+      "ap1ID": "id-7796",
+      "ap2ID": "id-2482"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7889",
+      "ap2ID": "id-7902"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-7893",
+      "ap2ID": "id-7897"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-1035",
       "ap2ID": "id-1382"
@@ -7326,79 +7385,9 @@
       "ap2ID": "id-7796"
     },
     {
-      "ap2Name": "retain",
-      "ap1ID": "id-25",
-      "ap2ID": "id-332"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-7535",
-      "ap2ID": "id-1582"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-7535",
-      "ap2ID": "id-7547"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-7535",
-      "ap2ID": "id-7553"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-7535",
-      "ap2ID": "id-7559"
-    },
-    {
-      "ap2Name": "Shape 6",
-      "ap1ID": "id-7547",
-      "ap2ID": "id-2482"
-    },
-    {
-      "ap2Name": "Shape 5",
-      "ap1ID": "id-7553",
-      "ap2ID": "id-2482"
-    },
-    {
-      "ap2Name": "Shape 4",
-      "ap1ID": "id-7559",
-      "ap2ID": "id-2482"
-    },
-    {
       "ap2Name": "remove",
       "ap1ID": "id-7615",
       "ap2ID": "id-332"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-7764",
-      "ap2ID": "id-431"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-7764",
-      "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "Shape 7",
-      "ap1ID": "id-7790",
-      "ap2ID": "id-2482"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-7790",
-      "ap2ID": "id-7889"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-7790",
-      "ap2ID": "id-7893"
-    },
-    {
-      "ap2Name": "Shape 8",
-      "ap1ID": "id-7796",
-      "ap2ID": "id-2482"
     },
     {
       "ap2Name": "geometry2",
@@ -7411,14 +7400,9 @@
       "ap2ID": "id-7889"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-7889",
-      "ap2ID": "id-7902"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-7893",
-      "ap2ID": "id-7897"
+      "ap2Name": "retain",
+      "ap1ID": "id-25",
+      "ap2ID": "id-332"
     }
   ],
   "unitsKey": "MM",
