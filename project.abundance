@@ -457,6 +457,10 @@
             {
               "name": "Shape8",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape9",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
@@ -514,7 +518,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 120
+              "ioValue": 180
             }
           ]
         },
@@ -538,7 +542,32 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 240
+              "ioValue": 90
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4,
+          "y": 0.8,
+          "uniqueID": "id-9779",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 270
             }
           ]
         }
@@ -685,6 +714,11 @@
           "ap2ID": "id-9772"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-9762",
+          "ap2ID": "id-9779"
+        },
+        {
           "ap2Name": "Shape6",
           "ap1ID": "id-9766",
           "ap2ID": "id-7605"
@@ -692,6 +726,11 @@
         {
           "ap2Name": "Shape7",
           "ap1ID": "id-9772",
+          "ap2ID": "id-7605"
+        },
+        {
+          "ap2Name": "Shape8",
+          "ap1ID": "id-9779",
           "ap2ID": "id-7605"
         }
       ],
@@ -3955,7 +3994,7 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3,
+      "x": 0.2,
       "y": 0.8,
       "uniqueID": "id-2957",
       "ioValues": [
@@ -3979,7 +4018,7 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.4,
+      "x": 0.3,
       "y": 0.9,
       "uniqueID": "id-2963",
       "ioValues": [
@@ -6040,6 +6079,40 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.4,
+      "y": 0.9,
+      "uniqueID": "id-9786",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "STL Tolerance",
+          "ioValue": 0.05
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Base1Tri",
+          "currentEquation": "M4_Base1Tri"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Base1Tri"
     }
   ],
   "allConnectors": [
@@ -6117,6 +6190,11 @@
       "ap2Name": "remove",
       "ap1ID": "id-2957",
       "ap2ID": "id-2963"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2963",
+      "ap2ID": "id-9786"
     },
     {
       "ap2Name": "geometry",
