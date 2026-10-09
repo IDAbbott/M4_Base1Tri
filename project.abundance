@@ -721,7 +721,7 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.6,
+      "x": 0.5,
       "y": 0.6,
       "uniqueID": "id-1436",
       "name": "Third1",
@@ -5315,7 +5315,7 @@
     {
       "atomType": "Assembly",
       "x": 0.7,
-      "y": 0.9,
+      "y": 0.8,
       "uniqueID": "id-7790",
       "ioValues": [
         {
@@ -5339,7 +5339,7 @@
     {
       "atomType": "Move",
       "x": 0.7,
-      "y": 0.8,
+      "y": 0.7,
       "uniqueID": "id-7796",
       "ioValues": [
         {
@@ -5782,7 +5782,7 @@
     },
     {
       "atomType": "Intersection",
-      "x": 0.8,
+      "x": 0.9,
       "y": 0.6,
       "uniqueID": "id-7889",
       "ioValues": [
@@ -5799,7 +5799,7 @@
     {
       "atomType": "Intersection",
       "x": 0.8,
-      "y": 0.7,
+      "y": 1,
       "uniqueID": "id-7893",
       "ioValues": [
         {
