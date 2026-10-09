@@ -6105,14 +6105,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_Base1Tri",
-          "currentEquation": "M4_Base1Tri"
+          "ioValue": "M4_Support_Tri",
+          "currentEquation": "M4_Support_Tri"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_Base1Tri"
+      "partName": "M4_Support_Tri"
     }
   ],
   "allConnectors": [
