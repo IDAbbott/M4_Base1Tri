@@ -2252,7 +2252,7 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1,
+      "x": 0,
       "y": 0.5,
       "uniqueID": "id-267",
       "name": "MotorHoles",
@@ -4413,8 +4413,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "SVG",
-          "currentEquation": "SVG"
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
         },
         {
           "name": "Resolution (dpi)",
@@ -4430,7 +4430,7 @@
           "currentEquation": "TrSupportBrace1"
         }
       ],
-      "type": "SVG",
+      "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
       "partName": "TrSupportBrace1"
@@ -4920,8 +4920,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1,
-      "y": 0.3,
+      "x": 0,
+      "y": 0.2,
       "uniqueID": "id-7615",
       "name": "BaseHoles",
       "topLevel": false,
@@ -5858,8 +5858,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "SVG",
-          "currentEquation": "SVG"
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
         },
         {
           "name": "Resolution (dpi)",
@@ -5875,10 +5875,34 @@
           "currentEquation": "TrSupportBrace2"
         }
       ],
-      "type": "SVG",
+      "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
       "partName": "TrSupportBrace2"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.1,
+      "y": 0.3,
+      "uniqueID": "id-9730",
+      "ioValues": [
+        {
+          "name": "makeDisjoint",
+          "ioValue": true
+        },
+        {
+          "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape3",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -5936,6 +5960,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-267",
       "ap2ID": "id-425"
+    },
+    {
+      "ap2Name": "Shape2",
+      "ap1ID": "id-267",
+      "ap2ID": "id-9730"
     },
     {
       "ap2Name": "retain",
@@ -6053,9 +6082,9 @@
       "ap2ID": "id-2482"
     },
     {
-      "ap2Name": "remove",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-7615",
-      "ap2ID": "id-332"
+      "ap2ID": "id-9730"
     },
     {
       "ap2Name": "number or geometry",
@@ -6106,6 +6135,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-7893",
       "ap2ID": "id-7897"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-9730",
+      "ap2ID": "id-332"
     }
   ],
   "unitsKey": "MM",
