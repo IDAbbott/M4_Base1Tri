@@ -12,6 +12,12 @@
       "y": 0.4,
       "uniqueID": "id-1035",
       "name": "SupportBrace",
+      "ioValues": [
+        {
+          "name": "input",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -443,13 +449,21 @@
             {
               "name": "Shape6",
               "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape7",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape8",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         },
         {
           "atomType": "Rotate",
           "x": 0.4,
-          "y": 0.8,
+          "y": 0.7,
           "uniqueID": "id-7777",
           "ioValues": [
             {
@@ -467,6 +481,64 @@
             {
               "name": "z-axis degrees",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0,
+          "y": 0.9,
+          "uniqueID": "id-9762",
+          "name": "input",
+          "type": "geometry",
+          "options": []
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.5,
+          "y": 1,
+          "uniqueID": "id-9766",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 120
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4,
+          "y": 0.8,
+          "uniqueID": "id-9772",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 240
             }
           ]
         }
@@ -600,6 +672,26 @@
         {
           "ap2Name": "Shape 5",
           "ap1ID": "id-7777",
+          "ap2ID": "id-7605"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-9762",
+          "ap2ID": "id-9766"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-9762",
+          "ap2ID": "id-9772"
+        },
+        {
+          "ap2Name": "Shape6",
+          "ap1ID": "id-9766",
+          "ap2ID": "id-7605"
+        },
+        {
+          "ap2Name": "Shape7",
+          "ap1ID": "id-9772",
           "ap2ID": "id-7605"
         }
       ],
@@ -6000,6 +6092,11 @@
       "ap2Name": "retain",
       "ap1ID": "id-25",
       "ap2ID": "id-332"
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-267",
+      "ap2ID": "id-1035"
     },
     {
       "ap2Name": "Shape2",
